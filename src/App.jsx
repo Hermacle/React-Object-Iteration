@@ -4,6 +4,7 @@ import SpecificUser from './components/SpecificUser';
 import AllProfiles from './components/AllProfiles';
 import TweetsWithCriteria from './components/TweetsWithCriteria';
 import UsersWithMostFollowers from './components/UsersWithMostFollowers';
+import UsersWithMostTweets from './components/UsersWithMostTweets';
 
 function App() {
   return (
@@ -33,6 +34,11 @@ function App() {
       <div>
         <h3>Users With Most Followers</h3>
         <UsersWithMostFollowers />
+      </div><hr />
+      {/* Option 6: Afficher les utilisateurs avec le plus grand nombre de tweets. */}
+      <div>
+        <h3>Users With Most Tweets</h3>
+        <UsersWithMostTweets />
       </div><hr />
     </>
   );
